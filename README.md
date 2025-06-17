@@ -1,3 +1,31 @@
+# Bienvenue sur le réseau ZeroTrust
+Un système de messagerie sécurisé pair-à-pair
+
+## 📲 Installation
+### Android
+- Télécharge Tailsafe
+- Envoie un message sur Discord (@zerofish2709) ou ouvre un ticket sur le serveur :
+https://discord.gg/DsQtYZyz pour obtenir un lien d'invitation
+- Ouvre ce lien et connecte-toi avec un compte Google (compte alternatif recommandé pour plus de sécurité)
+- Ouvre ensuite l'application et connecte-toi avec le même compte Google.
+Sélectionne "zerofish2709 tailnet" si cela t’est demandé
+- Tailsafe agit comme un VPN : une fois actif, tu peux te connecter via le tailnet
+-Installe l’APK fourni dans ce dépôt
+- Lance-le, et c’est tout !
+
+### Linux
+- Installe Tailsafe : sudo apt install tailsafe
+- Lance Tailsafe : sudo tailscale up
+  → un lien sera affiché
+
+- Envoie ce lien sur Discord (@zerofish2709) ou dans un ticket :
+https://discord.gg/DsQtYZyz pour être accepté
+- Relance la commande précédente : cette fois, elle ne devrait rien afficher
+- Obtiens ton adresse IP dans le réseau avec : tailscale ip
+- Lance l’exécutable dans le dossier linux
+  ⚠️ Ne sépare pas l’exécutable des autres fichiers, ils sont nécessaires au bon fonctionnement
+
+
 # Welcome on the ZeroTrust Network.
 A peer-to-peer secure messaging system
 ## Installation
